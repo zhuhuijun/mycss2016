@@ -1,0 +1,22 @@
+{
+  "name": "meigu",
+  "version": "1.0.0",
+  "description": "css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhuhuijun/mycss2016.git"
+  },
+  "keywords": [
+    "css"
+  ],
+  "author": "zhuhj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhuhuijun/mycss2016/issues"
+  },
+  "homepage": "https://github.com/zhuhuijun/mycss2016#readme"
+}

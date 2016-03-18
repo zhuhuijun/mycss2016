@@ -1,0 +1,269 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-03-09 22:53:10
+ * @version $Id$
+ */
+ html{font:12px '宋体';}
+ a{color: #000;}
+ .top{
+ 	background-color: #F7F7F7;
+ 	height: 26px;
+ 	line-height: 26px;
+ 	border-bottom: 1px solid #D8D8D8;
+ }
+ .top_page{width: 970px;height: 26px;margin: 0 auto; }
+ .top_page_l{line-height: 26px;}
+ .top_page_r ul li{
+ 	float: right;padding-right: 10px;line-height: 26px;
+ }
+ .top_page_r ul li s{
+ 	width: 14px;
+ 	height: 12px;
+ 	background:url(../image/skin_icons.png);
+ 	display: inline-block;
+ }
+ .logo{width: 970px;height: 98px;margin: 0 auto;}
+ .logo_l{height: 55px;width: 200px; margin: 24px 0 19px 9px;
+ 	background: url(../image/logo.gif);text-indent: -1000em;
+ }
+ .logo_r{height: 44px;width: 530px;border: 1px solid #C9C9C9;
+ 	margin-top: 29px;
+ }
+ .logo_r_content{
+ 	margin: 5px 5px 5px 4px;
+ }
+ .logo_r_search{width: 418px;height: 28px;
+ 	border: 1px solid #C9C9C9;color: #999999;
+ }
+ .logo_r_btn{width: 100px;height: 30px; background-color: #2F70D0;
+ 	color: white;
+ }
+ .nav{width: 970px;height: 25px;margin: 0 auto;
+ 	border-bottom: 2px solid #0266A3;
+ }
+ .nav li{float: left;padding: 0 15px 0 15px;
+ 	line-height: 25px;font-size: 14px; font-weight: bold;
+ }
+ .nav li a{
+ 	color: #0266A3;
+ }
+ .nav li:hover{
+ 	background-color: #0266A3;
+ }
+ .nav li:hover a{
+ 	color: white;
+ }
+ .banner{
+ 	width: 970px;height: 210px;
+ 	margin: 0 auto; margin-top: 10px;
+ }
+ .banner .subnav{
+ 	width: 200px; height: 210px;
+ 	margin-right: 11px;
+ }
+ .banner .subnav h2{
+ 	height: 30px; line-height: 30px; font-size: 14px; font-weight: bold;
+ 	background-color: #0266A3; color: white; padding-left: 20px;
+ }
+ .banner .subnav s{
+ 	display: inline-block;width: 15px;
+ 	height: 15px;
+ 	background: url(../image/skin_icons.png) -30px 0 ;
+ 	vertical-align: middle;
+ }
+ .banner .subnav ul{
+ 	background:#EBF0F6;
+ 	height: 180px; 
+ }
+ .banner .subnav li{
+ 	font-size: 15px;
+ 	padding-top: 11px;
+ 	margin-left: 9px;
+ }
+ .banner .subnav li a{
+ 	padding-left: 10px;
+ }
+ .banner .ad{
+ 	width: 520px; height: 210px;
+ 	background-color: green;
+ }
+ .banner .message{
+ 	width: 230px; height: 210px;
+ }
+ .message .message_top{
+ 	border: 1px solid #DDDDDD;
+ 	height: 95px;
+ 	background: #F7FAFF;
+ 	margin-bottom: 21px;
+ }
+ .message .message_top s{
+ 	display: inline-block;;
+ 	width: 40px;height: 38px;background: url(../image/dazhong.png);
+ 	margin: 20px 10px 0 10px ;
+ }
+ .message .message_top .fw{
+ 	font-weight: bold;
+ 	padding: 7px 0 0 18px;
+ }
+ .message .message_top .cheap{
+ 	margin-top: 25px;
+ }
+ .message_bottom{
+ 	border: 1px solid #DDDDDD;
+ 	background: #F7FAFF;
+ 	height: 90px;
+ }
+ .message_bottom .btn_search{
+ 	width: 81px;height: 23px;
+ 	background: blue;color: white;
+ 	margin-top: 9px;
+ 	margin-left: 75px;
+ }
+ .message_bottom .findmessage{text-align: center;
+ 	font-size: 12px;padding-top: 11px;
+ }
+ .message_bottom .phone{
+ 	text-align: center;
+ 	color: #3F89C0;margin-top: 10px;
+ }
+ .message_bottom .phone s{
+ 	display: inline-block;
+ 	height: 15px; width: 15px;
+ 	background: url(../image/skin_icons.png) 0 -30px;
+ 	vertical-align: middle;
+ }
+ .material{
+ 	width: 950px;
+ 	margin: 0 auto;
+ 	background: #ECF1F7;
+ 	height: 34px;
+ 	border: 2px solid #C3D7E4;
+ 	margin-top: 14px;
+ 	line-height: 34px;
+ 	font-weight: bold;
+ 	padding-left: 20px;
+ }
+ .product{
+ 	width: 970px;height: 345px;
+ 	margin: 0 auto;
+ 	margin-top: 12px;
+ }
+ .product .product_l{
+ 	width: 738px;
+ 	height: 345px;
+ 	border: 1px solid #D8D8D8;
+ }
+ .product_l_top{
+ 	height: 155px;
+ 	width: 712px;
+ 	padding:17px 0 0 26px;
+ }
+ .product_l_top .pro1{
+ 	width: 350px; height: 146px;
+ }
+
+ .product_l_top .pro1 .buy{
+ 	height: 143px; width: 99px;
+ }
+ .product_l_top .pro1 .buy .buy_img{
+ 	height: 100px;
+ 	border: 1px solid #CACACA;
+ }
+ .product_l_top .pro1 .buy .buy_img s{
+ 	display: inline-block;
+ 	width: 90px; height: 62px;background: url(../image/pro1.png);
+ 	margin: 10px 4px 0 3px;
+ }
+ .product_l_top .pro1 .buy .buy_btn{
+ 	width: 99px;
+ 	height: 26px; 
+ 	color: white;
+ 	margin-top: 15px;
+ 	background-color: #0A84E3;
+ }
+ .product_l_top .pro1 .explain{
+ 	width: 251px;height: 146px;
+ }
+ .product_l_top .pro1 .explain .goodwife{
+ 	font-size: 14px;font-weight: bold;
+ 	padding: 10px 0 0 10px;
+ }
+ .product_l_top .pro1 .explain .auto{
+ 	font-size: 12px;font-weight: bold;
+ 	color: #863E01;
+ 	padding: 13px 0 0 15px;
+ }
+ .product_l_top .pro1 .explain .money {
+ 	padding: 23px 0 0 11px;
+ }
+ .product_l_top .pro1 .explain .money span{
+ 	color: red;
+ }
+ .product_l_top .pro1 .explain .money s{
+ 	text-decoration: line-through;
+ }
+ .product_l_top .pro1 .explain .buyed {
+ 	font-size: 14px;
+ 	padding: 20px 0 0 11px;
+ }
+ .product_l_line{
+ 	margin:0 4px 0 4px;
+ 	border: 1px solid #CCCCCC;
+ }
+ .product .product_r{
+ 	width: 220px;
+ 	height: 345px;
+ 	border: 1px solid #CCCCCC;
+ }
+ .product .product_r h2{
+ 	height: 28px;line-height: 28px;
+ 	padding-left: 15px;
+ 	border-bottom: 1px solid #E0E6F0;
+ }
+ .product .product_r ul{
+ 	padding-top: 11px;
+ }
+ .product .product_r li{
+ 	line-height: 23px;
+ 	padding-left: 26px;
+ }
+ /*儿童安全座椅*/
+ .children{
+ 	width: 950px;
+ 	margin: 0 auto;
+ 	background: #ECF1F7;
+ 	height: 34px;
+ 	border: 2px solid #C3D7E4;
+ 	margin-top: 14px;
+ 	line-height: 34px;
+ 	font-weight: bold;
+ 	padding-left: 20px;
+ }
+ .div{
+ 	width: 970px;height: 500px; margin: 0 auto;background: pink;
+ 	margin-top: 12px;
+ }
+ .link{
+ 	width: 970px; 
+ 	height: 103px;
+ 	margin: 0 auto;
+ 	margin-top: 11px;border-top: 1px solid #DDDDDD;
+ 	color: 666666;
+ 	border-bottom: 3px solid #0A7EC3;
+ }
+ .link .p1{
+ 	margin-top: 30px;
+ }
+ .link .p2{
+ 	margin-top: 14px;
+ 	margin-left: 53px;
+ }
+ .footer{
+ 	width: 970px;height: 91px;
+ 	margin: 0 auto;
+ }
+ .footer .footer1{
+ 	margin-top: 14px;text-align: center;
+ } 
